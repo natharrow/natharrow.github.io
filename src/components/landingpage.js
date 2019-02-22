@@ -3,7 +3,6 @@ import {Grid, Cell, Layout, Header, Drawer, Navigation, Content} from 'react-mdl
 import Footer from './footer';
 import {Link} from 'react-router-dom';
 
-
 class Landing extends Component {
   render() {
     return(
@@ -28,7 +27,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Hi, Im Natalia!</h1>
               <hr/>
-              <p>bla </p>
+              <p>Change </p>
             </div>
           </div>
         </div>
