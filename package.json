@@ -1,0 +1,27 @@
+{
+  "name": "myportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://nataliaharrow.github.io/",
+  "dependencies": {
+    "@material-ui/core": "^3.2.2",
+    "mdbreact": "git+https://oauth2:YOUR_TOKEN>@git.mdbootstrap.com/mdb/react/re-pro.git#dev",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-mdl": "^1.11.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test — env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
