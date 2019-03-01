@@ -6,6 +6,13 @@
   background-color: #2193b0;
 }
 
+.mdl-footer{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
 .header-color {
   font-family: Roboto;
   font-size: 60px;

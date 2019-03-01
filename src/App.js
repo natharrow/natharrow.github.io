@@ -3,6 +3,7 @@ import './App.css';
 import Main from './components/main';
 import {Layout, Header, Drawer, Navigation, Content} from 'react-mdl';
 import {Link} from 'react-router-dom';
+import MyHeader from './components/header';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -10,14 +11,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
       <Layout>
-        <Header className="header-color" title="Natalia Harrow" scroll>
-          <Navigation>
-              <Link to="/landingpage">Home</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/contact">Contact</Link>
-          </Navigation>
-        </Header>
+        <MyHeader />
         <Content>
           <div className="page-content" />
           <Main/>
